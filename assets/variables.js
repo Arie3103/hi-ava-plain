@@ -9,7 +9,7 @@ const variables = {
   quotes: [
     { quote: "I'm sorry for loving you.", author: "Arie" },
     { quote: "I love you.", author: "Arie" },
-    { quote: "Aku sayang kamu!", author: "Arir" },
+    { quote: "Aku sayang kamu!", author: "Arie" },
     { quote: "Ian sayang Ava ♥", author: "Ian-nya Ava!" },
     { quote: "Love chuuu", author: "Bribri" },
   ],
