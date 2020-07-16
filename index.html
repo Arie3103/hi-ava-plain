@@ -38,6 +38,12 @@
   </head>
 
   <body>
+	  <div class="loading"></div>
+	<audio class="song" controls loop>
+        <source src="hbd.mp3"></source>
+	   Your browser isn't invited for super fun audio time.
+    </audio>
+	
     <div id="bg">
       <div id="particles-js"></div>
       <div class="container">
@@ -49,30 +55,8 @@
       </div>
     </div>
 	  
-	<audio id="myAudio" src="Somebody To You - The Vamps ft Demi Lovato.mp3" preload="auto">
-
-<a onClick="togglePlay()"><button type="button">Play</button></a>
-
-<script type="text/javascript">
- var myAudio = document.getElementById("myAudio");
-var isPlaying = false;
-
-function togglePlay() {
-  if (isPlaying) {
-    myAudio.pause()
-  } else {
-    myAudio.play();
-  }
-};
-myAudio.onplaying = function() {
-  isPlaying = true;
-};
-myAudio.onpause = function() {
-  isPlaying = false;
-};
-</script>
-
-</audio>
+	
+	  
 	  
     <!-- JQuery -->
     <script
