@@ -49,7 +49,28 @@
       </div>
     </div>
 	  
-	<audio src="Somebody To You - The Vamps ft Demi Lovato.mp3" controls autoplay>
+	<audio id="myAudio" src="Somebody To You - The Vamps ft Demi Lovato.mp3" preload="auto">
+
+<a onClick="togglePlay()"><button type="button">Play</button></a>
+
+<script type="text/javascript">
+ var myAudio = document.getElementById("myAudio");
+var isPlaying = false;
+
+function togglePlay() {
+  if (isPlaying) {
+    myAudio.pause()
+  } else {
+    myAudio.play();
+  }
+};
+myAudio.onplaying = function() {
+  isPlaying = true;
+};
+myAudio.onpause = function() {
+  isPlaying = false;
+};
+</script>
 
 </audio>
 	  
